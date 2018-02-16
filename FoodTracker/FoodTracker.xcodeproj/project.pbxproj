@@ -6,11 +6,42 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXFileReference section */
+		11C9871420368E3700F0560E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11C9871520368EAC00F0560E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		11C9870A20368D2100F0560E = {
 			isa = PBXGroup;
 			children = (
+				11C9871320368E1400F0560E /* Products */,
+				11C9871220368E0600F0560E /* FoodTrackerTests */,
+				11C9871120368DFE00F0560E /* FoodTracker */,
 			);
+			sourceTree = "<group>";
+		};
+		11C9871120368DFE00F0560E /* FoodTracker */ = {
+			isa = PBXGroup;
+			children = (
+				11C9871420368E3700F0560E /* AppDelegate.swift */,
+				11C9871520368EAC00F0560E /* ViewController.swift */,
+			);
+			path = FoodTracker;
+			sourceTree = "<group>";
+		};
+		11C9871220368E0600F0560E /* FoodTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FoodTrackerTests;
+			sourceTree = "<group>";
+		};
+		11C9871320368E1400F0560E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -21,7 +52,7 @@
 			attributes = {
 				LastUpgradeCheck = 0920;
 			};
-			buildConfigurationList = 11C9870E20368D2100F0560E /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 11C9870E20368D2100F0560E /* Build configuration list for PBXProject "FoodTracker" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -52,7 +83,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11C9870E20368D2100F0560E /* Build configuration list for PBXProject "test" */ = {
+		11C9870E20368D2100F0560E /* Build configuration list for PBXProject "FoodTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11C9870F20368D2100F0560E /* Debug */,
