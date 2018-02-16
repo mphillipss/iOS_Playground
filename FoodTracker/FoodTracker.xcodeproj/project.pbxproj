@@ -15,8 +15,8 @@
 		11C9870A20368D2100F0560E = {
 			isa = PBXGroup;
 			children = (
-				11C9871320368E1400F0560E /* Products */,
-				11C9871220368E0600F0560E /* FoodTrackerTests */,
+				11C987182036903100F0560E /* FoodTrackerTests */,
+				11C987172036902D00F0560E /* Products */,
 				11C9871120368DFE00F0560E /* FoodTracker */,
 			);
 			sourceTree = "<group>";
@@ -30,18 +30,18 @@
 			path = FoodTracker;
 			sourceTree = "<group>";
 		};
-		11C9871220368E0600F0560E /* FoodTrackerTests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FoodTrackerTests;
-			sourceTree = "<group>";
-		};
-		11C9871320368E1400F0560E /* Products */ = {
+		11C987172036902D00F0560E /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Products;
+			sourceTree = "<group>";
+		};
+		11C987182036903100F0560E /* FoodTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FoodTrackerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
